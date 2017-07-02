@@ -6,9 +6,6 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt 8" />
   </action>
-  <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="f9" />
-  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -17,13 +14,14 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt space" />
   </action>
   <action id="CompareTwoFiles" />
-  <action id="Debug" />
+  <action id="Diff.UpdatedFiles" />
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -31,15 +29,13 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl p" />
-  </action>
-  <action id="IpnbRunAllCellsAction" />
-  <action id="NewElement">
-    <keyboard-shortcut first-keystroke="alt insert" />
-    <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
   <action id="NewElementSamePlace">
     <keyboard-shortcut first-keystroke="ctrl n" />
@@ -51,22 +47,24 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
-  <action id="Resume" />
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="shift f9" />
-  </action>
+  <action id="SaveAll" />
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="shift ctrl alt o" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
+  <action id="SendEOF" />
+  <action id="ShelvedChanges.Diff" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
@@ -92,6 +90,8 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="TypeHierarchy" />
+  <action id="Vcs.Log.ShowDiff" />
   <action id="Vcs.UpdateProject" />
+  <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.CyclicSplitLayoutChangeAction" />
 </keymap>
