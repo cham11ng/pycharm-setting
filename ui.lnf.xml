@@ -1,5 +1,6 @@
 <application>
   <component name="UISettings">
+    <option name="FONT_FACE" value="Open Sans Semibold" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
     <option name="SHOW_NAVIGATION_BAR" value="false" />
   </component>
