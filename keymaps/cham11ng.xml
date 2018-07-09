@@ -77,10 +77,10 @@
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="SplitHorizontally">
-    <keyboard-shortcut first-keystroke="shift alt h" />
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
   </action>
   <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="shift alt v" />
+    <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
